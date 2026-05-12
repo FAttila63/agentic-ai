@@ -36,7 +36,7 @@ import gradio as gr
 with gr.ChatInterface(
     fn=chat,
     type="messages",
-    description="Chat with a smooth conversational agent that speaks like James Bond.",
+    description="Chat with a smooth conversational agent that speaks like a James Bond.",
     theme="compact"
 ) as chat_interface:
     chat_interface.launch()
